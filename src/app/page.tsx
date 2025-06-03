@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Market from "@/components/Market";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
 
       <div className="flex-1">
         <Hero />
+        <Market />
       </div>
 
       <Footer />
